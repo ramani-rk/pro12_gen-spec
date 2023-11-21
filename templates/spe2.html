@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <h1><marquee>Hiii im a Specific page2</marquee></h1>
+        <h3>If you want to Go Specific Page1 Press the Below Link</h3>
+        <a href="{% url 'specific:spe1' %}">Click Here to Get Response of Specific Page1</a>
+
+    <center>
+    <h4>If you want to Go Generic Page1 Press the Below Link</h4>
+        <a href="{% url 'gen1' %}">Click Here to Get Response of Generic Page1</a>
+    </center>
+
+    <center align = 'right'>
+    <h3>If you want to Go Generic Page2 Press the Below Link</h3>
+        <a href="{% url 'gen2' %}">Click Here to Get Response of Generic Page2</a>
+    </center align = 'right'>
+
+</body>
+</html>
